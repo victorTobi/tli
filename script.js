@@ -16,7 +16,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
             prediction = storedPrediction;
         } else {
             // Otherwise, generate a random prediction
-            var illnesses = ['Cataract', 'Glaucoma', 'Reticular Rhinopathy'];
+            var illnesses = ['Cataract', 'Glaucoma', 'Diabetic Retinopathy'];
             prediction = illnesses[Math.floor(Math.random() * illnesses.length)];
 
             // Store the prediction for this filename
