@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illness Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h2>Tolulope Adekoya</h2>
+        <p></p>
+        <p>Matric Number:19CJ025760 | Project Supervisor: Dr. Kennedy Okokpujie</p>
+    </div>
+    <div class="container">
+        <h1>Optical Illness Prediction</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" class="file-input">
+            <button type="submit" class="upload-button">Scan Image</button>
+        </form>
+        <div id="prediction" class="prediction"></div>
+    </div>
+
+    <div class="background">
+        <div class="medical-icon caduceus"></div>
+        <div class="medical-icon stethoscope"></div>
+        <div class="medical-icon pill"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
